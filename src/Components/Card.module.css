@@ -1,0 +1,295 @@
+@media all and (min-height: 801px) and (max-width: 1439px) {
+    .card {
+        position: absolute;
+        height: 800px;
+        width: 375px;
+        top: 50%;
+        left: 50%;
+        margin-top: -400px;
+        margin-left: -187.5px;
+    }
+}
+
+@media all and (max-width: 1439px) {
+    .card {
+        position: absolute;
+        height: 800px;
+        width: 375px;        
+        left: 50%;
+        margin-left: -187.5px;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .bgDesktop {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        width: 132px;
+        top: 0px;
+        left: 0px;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .illustration {
+        position: absolute;
+        width: 305px;
+        top: 0px;
+        left: 0px;
+        margin-top: 120px;
+        margin-left: 35px;
+    }
+
+    h1 {
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        margin: 390px 35px 0px 35px;
+        color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .description {
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+        margin: 470px 35px 0px 35px;
+        color: #f8ecfd;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+    .register {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-top: 625px;
+        margin-left: 89.297px;
+        padding: 10px 70px 10px;
+        border-radius: 30px;
+        background-color: #ffffff;
+        color: hsl(257, 40%, 49%);
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5)
+    }
+
+    .register:hover {
+        background-color: hsl(300, 69%, 71%);
+        color: #f8ecfd;
+    }
+
+    .iconFacebook {
+        position: absolute;
+        display: inline-block;
+        left: 0px;
+        margin-top: 720px;
+        margin-left: 127.5px;
+        height: 15px;
+        padding: 7.5px 10.3125px 7.5px;
+        border-radius: 20px;
+        margin-bottom: 200px;
+        margin-right: -20px;
+        color: white;
+        border: solid 1px white;
+        cursor: pointer;
+    }
+
+    .iconFacebook:hover {
+        color: hsl(300, 69%, 71%);
+        border: solid 1px hsl(300, 69%, 71%);
+    }
+
+    .iconTwitter {
+        position: absolute;
+        display: inline-block;
+        left: 0px;
+        margin-top: 720px;
+        margin-left: 172.5px;
+        height: 15px;
+        padding: 7.5px;
+        border-radius: 20px;
+        margin-bottom: 200px;
+        margin-right: -20px;
+        color: white;
+        border: solid 1px white;
+        cursor: pointer;
+    }
+
+    .iconTwitter:hover {
+        color: hsl(300, 69%, 71%);
+        border: solid 1px hsl(300, 69%, 71%);
+    }
+
+    .iconInstagram {
+        position: absolute;
+        display: inline-block;
+        left: 0px;
+        margin-top: 720px;
+        margin-left: 217.5px;
+        height: 18px;
+        padding: 6px 7.125px 6px;
+        border-radius: 20px;
+        margin-bottom: 200px;
+        margin-right: -20px;
+        color: white;
+        border: solid 1px white;
+        cursor: pointer;
+    }
+
+    .iconInstagram:hover {
+        color: hsl(300, 69%, 71%);
+        border: solid 1px hsl(300, 69%, 71%);
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .card {
+        position: absolute;
+        height: 800px;
+        width: 1440px;
+        top: 50%;
+        left: 50%;
+        margin-top: -400px;
+        margin-left: -720px;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .bgMobile {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        width: 215px;
+        top: 0px;
+        left: 0px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
+    .illustration {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-top: 193px;
+        margin-left: 70px;
+    }
+
+    h1 {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin: 235px 100px 0px 110px;
+        color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .description {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin: 370px 90px 0px 110px;
+        color: #f8ecfd;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .register {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        margin: 485px 90px 0px 110px;
+        padding: 12px 65px 15px;
+        border-radius: 30px;
+        background-color: #ffffff;
+        color: hsl(257, 40%, 49%);
+        font-family: 'Poppins';
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5)
+    }
+
+    .register:hover {
+        background-color: hsl(300, 69%, 71%);
+        color: #f8ecfd;
+    }
+
+    .iconFacebook {
+        position: absolute;
+        display: inline-block;
+        left: 50%;
+        margin-top: 720px;
+        margin-left: 485px;
+        height: 18px;
+        padding: 10px 13.375px 10px;
+        border-radius: 20px;
+        margin-bottom: 200px;
+        margin-right: -20px;
+        color: white;
+        border: solid 1px white;
+        cursor: pointer;
+    }
+
+    .iconFacebook:hover {
+        color: hsl(300, 69%, 71%);
+        border: solid 1px hsl(300, 69%, 71%);
+    }
+
+    .iconTwitter {
+        position: absolute;
+        display: inline-block;
+        left: 50%;
+        margin-top: 720px;
+        margin-left: 542px;
+        height: 16px;
+        padding: 11px;
+        border-radius: 20px;
+        margin-bottom: 200px;
+        margin-right: -20px;
+        color: white;
+        border: solid 1px white;
+        cursor: pointer;
+    }
+
+    .iconTwitter:hover {
+        color: hsl(300, 69%, 71%);
+        border: solid 1px hsl(300, 69%, 71%);
+    }
+
+    .iconInstagram {
+        position: absolute;
+        display: inline-block;
+        left: 50%;
+        margin-top: 720px;
+        margin-left: 599px;
+        height: 21px;
+        padding: 8.5px 9.8125px 8.5px;
+        border-radius: 20px;
+        margin-bottom: 200px;
+        margin-right: -20px;
+        color: white;
+        border: solid 1px white;
+        cursor: pointer;
+    }
+
+    .iconInstagram:hover {
+        color: hsl(300, 69%, 71%);
+        border: solid 1px hsl(300, 69%, 71%);
+    }
+}
